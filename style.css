@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,400;0,700;1,400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Overpass', sans-serif;
+    font-size: 15px;
+    background-color: hsl(216, 12%, 8%);
+    color: #fff;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+}
+
+p {
+    line-height: 1.2;
+}
+
+.container, .thanks {
+    background-color: hsl(213, 19%, 18%);
+    padding: 1.5rem;
+    border-radius: 8px;
+    max-width: 400px;
+}
+
+.container img {
+    background-color: hsl(213, 20%, 22%);
+    padding: 0.5rem;
+    border-radius: 50%;
+}
+
+.container h1 {
+    color: #fff;
+    margin: 2rem 0 1rem;
+}   
+
+.container p {
+    color: hsl(217, 12%, 63%);
+    margin-bottom: 1rem;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+}
+
+.btn-container button {
+    width: 3rem;
+    height: 3rem;
+    border: none;
+    background-color: hsl(213, 20%, 22%);
+    color: hsl(217, 12%, 63%);
+    border-radius: 50%;
+    cursor: pointer;
+    transition: .3s ease;
+}
+
+.btn-container button:hover {
+    background-color: hsl(25, 97%, 53%);
+    color: #fff;
+}
+
+.btn-container button:focus {
+    background-color: hsl(217, 12%, 63%);
+    color: #fff;
+}
+
+.container #submit {
+    background-color: hsl(25, 97%, 53%);
+    color: #fff;
+    width: 100%;
+    padding: 0.8rem 0 0.7rem;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+}
+
+.container #submit:hover {
+    background-color: #fff;
+    color: hsl(25, 97%, 53%);
+}
+
+.thanks {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.thanks img{
+    display: block;
+    margin: 0 auto 2rem;
+}
+
+.thanks p .rate {
+    background-color: hsl(213, 20%, 22%);
+    color: hsl(25, 97%, 53%);
+    border-radius: 20px;
+    padding: 0.2rem 0.5rem 0;
+    font-size: 0.9rem;
+    margin-bottom: 2rem;
+}
+
+.thanks h1 {
+    color: #fff;
+    margin-bottom: 1rem;
+}
+
+.thanks p {
+    color: hsl(217, 12%, 63%);
+}
+
+.hidden {
+    display: none;
+}
